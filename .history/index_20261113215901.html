@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saramago Senior - Cuidar es nuestra fortaleza</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- CDN de Font Awesome para íconos profesionales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header>
+        <div class="top-bar">
+            <img src="img/logo.png" alt="Saramago Senior Logo - Elefante de perfil con cruz de salud" class="logo">
+            <span class="top-slogan">Cuidar es nuestra fortaleza</span>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-links">
+            <li><a href="#inicio">inicio</a></li>
+            <li><a href="#servicios">servicios</a></li>
+            <li><a href="#nosotros">nosotros</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="btn-font-size" type="button" data-font-step="-2" aria-label="Reducir tamaño de letra">A−</button>
+            <button class="btn-font-size" type="button" data-font-step="2" aria-label="Aumentar tamaño de letra">A+</button>
+            <button class="btn-accessibility" type="button" aria-label="Activar alto contraste" aria-pressed="false">Contraste</button>
+        </div>
+        <span class="visually-hidden" id="accessibility-status" aria-live="polite"></span>
+    </nav>
+
+    <main id="contenido">
+        <!-- Sección Hero -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h1>SARAMAGO<br>Senior</h1>
+                <h2>Bienestar y confianza para<br>adultos mayores</h2>
+                <a href="#servicios" class="btn btn-primary">Conoce nuestros servicios <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-image">
+                <img src="img/hero.png" alt="Adulto mayor sonriendo">
+            </div>
+        </section>
+
+        <!-- Sección de Tarjetas de Servicio -->
+        <section class="services-cards" id="servicios">
+            <article class="card card-blue">
+                <!-- Ícono de Calendario -->
+                <div class="card-icon"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i></div>
+                <div class="card-text">
+                    <h3>Saramago Care</h3>
+                    <p>Bitácora inteligente para cuidar mejor.</p>
+                </div>
+                <a href="bitacora.html" class="btn-arrow" aria-label="Ir a la bitácora de Saramago Care">
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </article>
+
+            <article class="card card-orange">
+                <!-- Ícono de Cuidadores (Grupo) -->
+                <div class="card-icon"><i class="fa-solid fa-user-group" aria-hidden="true"></i></div>
+                <div class="card-text">
+                    <h3>Saramago Caregivers</h3>
+                    <p>Contrata a nuestros cuidadores.</p>
+                </div>
+                <button class="btn-arrow" type="button" aria-label="Ver Saramago Caregivers">
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    href
+                </button>
+            </article>
+
+            <article class="card card-green">
+                <!-- Ícono de Educación -->
+                <div class="card-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                <div class="card-text">
+                    <h3>Saramago Edu</h3>
+                    <p>Formación para el cuidado.</p>
+                </div>
+                <button class="btn-arrow" type="button" aria-label="Ver Saramago Edu">
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </button>
+            </article>
+        </section>
+
+        <!-- Sección Acerca de -->
+        <section class="about-team" id="nosotros">
+            <div class="about-content">
+                <h2>Un equipo<br>para acompañarte.</h2>
+                <a href="#" class="btn btn-secondary">Saber más sobre nosotros <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="about-image">
+                <img src="img/team.png" alt="Cuidadora acompañando a una adulta mayor">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+
+            <div class="footer-brand">
+                <img src="img/logoSW.png"
+                     alt="Saramago Senior" class="footer-logo">
+                <p class="footer-company">
+                    Saramago Senior <br>
+                </p>
+            </div>
+
+            <div class="footer-block">
+                <h2 class="footer-title">¿Necesitas ayuda?</h2>
+
+                <a class="footer-mail" href="mailto:soporte@sarsen.com">
+                    <i class="fa-solid fa-headset" aria-hidden="true"></i>
+                    soporte@sarsen.com
+                </a>
+                <span class="footer-hint">Reportar errores o pedir ayuda</span>
+
+                <a class="footer-mail" href="mailto:contacto@sarsen.com">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    contacto@sarsen.com
+                </a>
+                <span class="footer-hint">Dudas y consultas</span>
+            </div>
+
+            <div class="footer-block">
+                <h2 class="footer-title">Síguenos</h2>
+                <ul class="footer-social">
+                    <li>
+                        <a href="https://instagram.com/sarsen"
+                           target="_blank" rel="noopener"
+                           aria-label="Instagram @sarsen">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            @sarsen
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/SarsenSaramagoSenior"
+                           target="_blank" rel="noopener"
+                           aria-label="Facebook Saramago Senior">
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                            Saramago Senior
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com/@sarsen"
+                           target="_blank" rel="noopener"
+                           aria-label="TikTok @sarsen">
+                            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                            @sarsen
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © Cuidado Inteligente MX S.A. de C.V.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

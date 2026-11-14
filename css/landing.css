@@ -102,6 +102,9 @@
 }
 
 .btn-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary-orange);
     color: #fff;
     border: none;
@@ -111,6 +114,7 @@
     cursor: pointer;
     position: absolute;
     right: 1rem;
+    text-decoration: none;
 }
 
 .about-team {
